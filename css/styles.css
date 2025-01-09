@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #434455;
 }
@@ -47,7 +47,9 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
@@ -60,13 +62,13 @@ a {
 .service-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .service-btn {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -76,7 +78,8 @@ a {
 }
 .service-btn:hover,
 .service-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 .goals-title {
@@ -97,11 +100,12 @@ a {
 .team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   background-color: #f4f4fd;
+  text-transform: capitalize;
 }
 .team-card {
   background-color: #fff;
@@ -131,10 +135,11 @@ a {
 .portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-title {
   font-weight: 500;
